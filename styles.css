@@ -24,7 +24,7 @@ h1 {
 }
 
 body {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(50, 50, 50, 0.7);
 }
 
 table{
@@ -34,6 +34,7 @@ table{
     box-sizing: border-box;
     font-family: 'Noto Sans';
     margin: auto;
+    width: 90%;
 }
 
 td {
