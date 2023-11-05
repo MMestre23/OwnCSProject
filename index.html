@@ -7,9 +7,9 @@
     </head>
     
     <body>
-        <header>
+        <p>
             <h1>CSS Common Properties Table</h1>
-        </header>
+        </p>
         <table>
             <tr>
                 <th>
@@ -30,7 +30,7 @@
                     color: value;
                 </td>
                 <td>
-
+                    Using the color property, foreground text color of an element can be set in CSS. The value can be a valid color name supported in CSS like green or blue. Also, 3 digit or 6 digit color code like #22f or #2a2aff can be used to set the color. 
                 </td>
             </tr>
             <tr>
@@ -41,7 +41,7 @@
                     background-color: value;
                 </td>
                 <td>
-                
+                    The background-color CSS property controls the background color of elements.
                 </td>
             </tr>
             <tr>
@@ -52,7 +52,7 @@
                     opacity: value;
                 </td>
                 <td>
-                
+                    The opacity CSS property can be used to control the transparency of an element. The value of this property ranges from 0 (transparent) to 1 (opaque).
                 </td>
             </tr>
             <tr>
@@ -74,7 +74,7 @@
                     font-size: value;
                 </td>
                 <td>
-                
+                    The font-size CSS property is used to set text sizes. Font size values can be many different units or types such as pixels.
                 </td>
             </tr>
             <tr>
@@ -94,24 +94,112 @@
                     Background Image
                 </td>
                 <td>
-                    background-image: url("value")
+                    background-image: url("value");
                 </td>
                 <td>
                     The background-image CSS property sets the background image of an element. An image URL should be provided in the syntax url("moon.jpg") as the value of the property. 
                 </td>
             </tr>
+            
+        </table>
+
+        <p>
+            <h1>CSS Important and Color attributes Table</h1>
+        </p>
+        <table>
+            <tr>
+                <th>
+                    Attribute
+                </th>
+                <th>
+                    Syntax
+                </th>
+                <th>
+                    Description
+                </th>
+            </tr>
             <tr>
                 <td>
-
+                    Important
                 </td>
                 <td>
-
+                    !important
                 </td>
                 <td>
-                
+                    The CSS !important rule is used on declarations to override any other declarations for a property and ignore selector specificity. !important rules will ensure that a specific declaration always applies to the matched elements. However, generally it is good to avoid using !important as bad practice.
                 </td>
             </tr>
+            <tr>
+                <td>
+                    Color Name Keyword
+                </td>
+                <td>
+                    Example: black
+                </td>
+                <td>
+                    Color name keywords can be used to set color property values for elements in CSS. 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Color Hexadecimal
+                </td>
+                <td>
+                    #ffffff or #fff
+                </td>
+                <td>
+                    CSS colors can be represented in hexadecimal (or hex) notation. Hexadecimal digits can represent sixteen different values using 0-9 and a-f. Hexadecimal colors are composed of 6 characters–each group of two represents a value between 0 and 255 for red, green, or blue. For example #ff0000 is all red, no green, and no blue. When both characters of all three colors are repeated, hex colors can be abbreviated to only three values, so #0000ff could also be represented as #00f.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Color RGB
+                </td>
+                <td>
+                    rgb(0-255, 0-255, 0-255);
+                </td>
+                <td>
+                    CSS colors can be declared with RGB colors using rgb() syntax. rgb() should be supplied with three values representing red, green, and blue. These values range can from 0 to 255.
 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Color RGB Alpha
+                </td>
+                <td>
+                    rgba(0-255, 0-255, 0-255, 0.0-1.0);
+                </td>
+                <td>
+                    Same as the one above but with an extra transparency attribute. 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Color HSL
+                </td>
+                <td>
+                    hsl(0-360, 0%-100%, 0%-100%);
+                </td>
+                <td>
+                    CSS colors can be declared with the HSL color system using hsl() syntax. This syntax contains three values: hue (the color value itself), saturation (intensity), and lightness. Hue values range from 0 to 360 while saturation and lightness values are represented as percentages.
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Color HSL Alpha
+                </td>
+                <td>
+                    hsla(0-360, 0%-100%, 0%-100%, 0.0-1.0);
+                </td>
+                <td>
+                    Same as the one above but with an extra transparency attribute. 
+                </td>
+            </tr>
+            
+            
+            
         </table>
     </body>
     
