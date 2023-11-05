@@ -20,31 +20,31 @@ h1 {
     color: #ffecd1;
     font-family: 'Oswald';
     opacity: 0.8;
+    padding:20px;
 }
 
 body {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 table{
+    border: 1px solid white;
+    border-collapse: collapse;
     color: white;
-    width: 80%;
     box-sizing: border-box;
     font-family: 'Noto Sans';
-    padding: 20px 10%;
+    margin: auto;
 }
 
 td {
+    border: 1px solid white;
     text-align:center;
-    border-radius: 1px;
-    border-color: white;
     box-sizing: border-box;
     padding: 5px;
 }
 
 th{
-    border-radius: 1px;
-    border-color: white;
+    border: 1px solid white;
     box-sizing: border-box;
     padding: 5px;
 }
@@ -54,9 +54,5 @@ th{
 }
 
 .syntax {
-    width: 15%;
-}
-
-.description {
-    width: 70%;
+    width: 25%;
 }
