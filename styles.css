@@ -31,10 +31,32 @@ table{
     width: 80%;
     box-sizing: border-box;
     font-family: 'Noto Sans';
+    padding: 20px 10%;
 }
 
 td {
-    border: 1px;
+    text-align:center;
+    border-radius: 1px;
     border-color: white;
-    text-align: justify;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+th{
+    border-radius: 1px;
+    border-color: white;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.property{
+    width: 15%;
+}
+
+.syntax {
+    width: 15%;
+}
+
+.description {
+    width: 70%;
 }
